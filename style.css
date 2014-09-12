@@ -1,0 +1,22 @@
+.pos{
+    background-color: red;
+    color: orange;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.li{
+    background-color: green;
+    color: white;
+    align-items: stretch;
+}
+.container{
+    max-width: 300px;
+    position: relative;
+    right: 400px;
+
+}
+.li{
+    background-color: blue;
+    text-emphasis-color: white;
+}
