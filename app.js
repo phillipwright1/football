@@ -12,17 +12,18 @@ $(document).ready(function() {
         $('.lbItem').toggle("fast");
         $('#lb').toggle("fast");
     });
-    $('.corner-back').click(function() {
+    $('.cornerback').click(function() {
         $('.cbItem').toggle("fast");
         $('#cb').toggle("fast");
+        $('.qbItem').hide();
+        $('#qb').hide();
     });
-    $(document).ready(function() {
-        $('qbItem').hide();
-        $('cbItem').hide();
-        $('deItem').hide();
-        $('lbItem').hide();
+        $('.qbItem').hide();
+        $('.cbItem').hide();
+        $('.deItem').hide();
+        $('.lbItem').hide();
         $('#qb').hide();
         $('#cb').hide();
         $('#de').hide();
         $('#lb').hide();
-})});
+        });
