@@ -3,110 +3,438 @@
 <head>
     <title>football awareness</title>
     <meta charset="utf-8">
+
     <!--<link href="style.css" rel="stylesheet">-->
     <link rel="stylesheet" href="http://bootswatch.com/cyborg/bootstrap.css">
-
-</head>
-<body>
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Football Awareness</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-<div>
-    <div class=" ">
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-1">
-                    <h1>Football Positions</h1>
-                    <ul class="nav nav-pills nav-stacked">
-                        <li class="quarterback pos"><a href="#">Quarterback</a></li>
-                        <li class="defensive-end pos"><a href="#">Defensive-End</a></li>
-                        <li class="linebacker pos"><a href="#">Linebacker</a></li>
-                        <li class="cornerback pos"><a href="#">Cornerback</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 col-md-offset-1">
-                    <div id="qb" class= "col-md-offset-1">
-                        <h2>Basic Fundamentals</h2>
-                        <ul>
-                            <li a href="#" class="list-group-item">Reading The Defense</li>
-                            <li a href="#" class="list-group-item">Staying In The Pocket </li>
-                            <li a href="#" class="list-group-item">Handoffs</li>
-                            <li a href="#" class="list-group-item">Passing</li>
-                            <br>
-                            <iframe width="520" height="315" src="//www.youtube.com/embed/QEksRqde8mM" frameborder="0" allowfullscreen></iframe>
-                        </ul>
-                    </div>
-                    <div id="de" class="col-md-offset-1">
-                        <h2>Basic Fundamentals</h2>
-                        <ul>
-                            <li a href="#" class="list-group-item">Staying Outside</li>
-                            <li a href="#" class="list-group-item">Foundation</li>
-                            <li a href="#" class="list-group-item">Rushing The QB</li>
-                            <li a href="#" class="list-group-item">Hand Placement</li>
-                            <br>
-                            <iframe width="520" height="315" src="//www.youtube.com/embed/_2iYpzwNxYQ" frameborder="0" allowfullscreen></iframe>
-                        </ul>
-                    </div>
-                    <div id="lb" class="col-md-offset-1">
-                        <h2>Basic Fundamentals</h2>
-                        <ul>
-                            <li a href="#" class="list-group-item">Run protection</li>
-                            <li a href="#" class="list-group-item">Pass Protection</li>
-                            <li a href="#" class="list-group-item">Rushing The QB</li>
-                            <li a href="#" class="list-group-item">Reading The Offense</li>
-                            <br>
-                            <iframe width="520" height="315" src="//www.youtube.com/embed/JDcJQ74a1-U" frameborder="0" allowfullscreen></iframe>
-                        </ul>
-                    </div>
-                    <div id="cb" class="col-md-offset-1">
-                        <h2>Basic Fundamentals</h2>
-                        <ul>
-                            <li a href="#" class="list-group-item">Pressuring Receivers</li>
-                            <li a href="#" class="list-group-item">Avoiding Blocks</li>
-                            <li a href="#" class="list-group-item">Jamming</li>
-                            <li a href="#" class="list-group-item">Interceptions</li>
-                            <br>
-                            <iframe width="520" height="315" src="//www.youtube.com/embed/fJzO_8DvpPs" frameborder="0" allowfullscreen></iframe>
-                        </ul>
-                    </div>
-                </div>
-
-
-
-                <!--<div id="cb" class="col-md-offset-5">-->
-                <!--<h2>corner-back</h2>-->
-                <!--<ul  class="deet">-->
-                <!--<li>detail2</li>-->
-                <!--<li>detail4</li>-->
-                <!--<li>detail5</li>-->
-                <!--<li>detail6</li>-->
-                <!--<li>detail7</li>-->
-                <!--<li>detail8</li>-->
-                <!--<iframe width="560" height="315" src="//www.youtube.com/embed/fJzO_8DvpPs" frameborder="0" allowfullscreen></iframe>-->
-                <!--</ul>-->
-                <!--</div>-->
-            </div>
-        </section>
-    </div>
+    <link rel="stylesheet" href="style.css"/>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
     <script src="app.js"></script>
-    <script  href="htpp://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</div>
+
+
+
+</head>
+<body class=="view"   ng-app>
+ <div >
+ <nav class="navbar navbar-default" role="navigation">
+     <div class="container-fluid">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="#">Football Awareness</a>
+         </div>
+
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <ul class="nav navbar-nav">
+                 <li class="active"><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Top%20NFL%20players">Top NFL Players</a></li>
+                 <li><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=common%20NFL%20injuries">Common Injuries</a></li>
+                 <li><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=NFL%20players%20attitudes">Attitudes</a></li>
+             </ul>
+
+             <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#"></a></li>
+                 <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
+                     <ul class="dropdown-menu" role="menu">
+                         <li><a href="#">Action</a></li>
+                         <li><a href="#">Another action</a></li>
+                         <li><a href="#">Something else here</a></li>
+                         <li class="divider"></li>
+                         <li><a href="#">Separated link</a></li>
+                     </ul>
+                 </li>
+             </ul>
+         </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+ </nav>
+    <div>
+        <div>
+            <section class="container-fluid">
+                <div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <h1> OFFENSE</h1>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="quarterback pos"><a href="#">Quarterback</a></li>
+                            <li class="halfback pos"><a href="#">Halfback</a></li>
+                            <li class="fullback pos"><a href="#">Fullback</a></li>
+                            <li class="tightend pos"><a href="#">Tight End</a></li>
+                            <li class="widereciever pos"><a href="#">Wide Receiver</a></li>
+                            <li class="oline pos"><a href="#">Offensive Line</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                       <div class="col-md-4 col-md-offset-1">
+                         <h1>DEFENSE</h1>
+                         <ul class="nav nav-pills nav-stacked">
+                            <li class="linebacker pos"><a href="#">Linebacker</a></li>
+                            <li class="cornerback pos"><a href="#">Corner Back</a></li>
+                            <li class="dline pos"><a href="#">Defensive Line</a></li>
+                            <li class="defensive-end pos"><a href="#">Defensive End</a></li>
+                            <li class="strongsafety pos"><a href="#">Strong Safety</a></li>
+                            <li class="freesafety pos"><a href="#">Free Safety</a></li>
+                         </ul>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="qb" class= "col-md-offset-1">
+                            <h2>Quarterback</h2>
+                            <p>
+                                In modern football, the quarterback is the leader of the offense. The quarterback touches
+                                the ball on almost every offensive play, and his successes and failures can have a significant
+                                impact on the fortunes of his team. Accordingly, the quarterback is among the most glorified
+                                and scrutinized positions in team sports.<p>
+
+                                <p>Prior to each play, the quarterback tells the rest
+                                of his team which play the team will run; after the team is lined up, the center will pass the
+                                ball back between his legs to the quarterback (a process called the snap). On a running play,
+                                the quarterback will then hand or pitch the ball backwards to a running back.
+
+                                <p>On a passing play,
+                                the quarterback will try to throw the ball downfield to a wide receiver, tight end, or running
+                                back.[3] Additionally, the quarterback can run with the ball himself. This could be part of
+                                a designed play like the option run or quarterback sneak, or it could be an impromptu
+                                effort to avoid being sacked by the defense.</p>
+
+                            </p>
+                                <iframe width="520" height="315" src="//www.youtube.com/embed/QEksRqde8mM" frameborder="0" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="de" class="col-md-offset-1">
+                            <h2>Defensive End</h2>
+
+                              <p>  Early formations, with six- and seven-man lines, used the end as a containment player, whose job
+                                was first to prevent an "end run" around his position, then secondarily to force plays inside.</p>
+
+                               <p> When most teams adopted a five-man line, two different styles of end play developed: "crashing"
+                                ends, who rushed into the backfield to disrupt plays, and "stand-up" or "waiting" ends, who played
+                                the more traditional containment style. Some teams would use both styles of end play, depending
+                                on game situations.</p>
+
+                              <p>  Traditionally, defensive ends are in a three-point stance, with their free hand cocked back ready
+                                to "punch" the offensive lineman, or in a "two-point stance" like a linebacker so they can keep
+                                containment. Some defensive ends play the position due to their size; they close down their gap
+                                so the running back has no hole to run through. Other ends play the position due to their speed
+                                and agility; they are used to rush the quarterback. These ends can time the snap of the ball in
+                                order to get a jump on the rush.</p>
+
+
+
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/_2iYpzwNxYQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="lb" class="col-md-offset-1">
+                            <h2>Linebacker</h2>
+
+                               <p> A linebacker (LB) is a playing position in American football and Canadian football that was
+                                invented by football coach Fielding H. Yost of the University of Michigan,[1] with Germany
+                                Schulz being his first linebacker in 1905. Linebackers are members of the defensive team,
+                                and line up approximately three to five yards (4 m) behind the line of scrimmage, behind the
+                                defensive linemen.</p>
+
+                            <p>Linebackers generally align themselves before the ball is snapped by
+                                standing upright in a "two point stance" (as opposed to the defensive linemen, who put one
+                                or two hands on the ground for a "three point stance" or "four point stance" before the ball
+                                is snapped).</p>
+
+                                <p>The goal of the linebacker is to provide either extra run protection or extra
+                                pass protection based on the particular defensive play being executed; Another key play of
+                                the linebacker position is blitzing, a Blitz occurs when a linebacker acts as an extra pass
+                                rusher running into any exposed gap. When a blitz is called on the defense, it is mainly to
+                                sack or hurry the opposing offense's quarterback.</p>
+                                <iframe width="520" height="315" src="//www.youtube.com/embed/JDcJQ74a1-U" frameborder="0" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="cb" class="col-md-offset-1">
+                            <h2>CornerBack</h2>
+                            <p>The chief responsibility of the cornerback is to defend against the offense's pass. The rules
+                                of American professional football and American college football do not mandate starting
+                                position, movement, or coverage zones for any member of the defense.</p>
+
+                              <p>There are no
+                                "illegal defense" formations. Cornerbacks can be anywhere on the defensive side of the line
+                                of scrimmage at the start of play, although their proximity, formations, and strategies are
+                                outlined by the coaching staff or captain.</p>
+
+                                <p>Most modern National Football League defensive formations use four defensive backs (two safeties
+                                and two corners); Canadian Football League defenses generally use five defensive backs (one
+
+                                safety, two defensive halfbacks, and two corners).</p>
+
+                                <p>A cornerback's responsibilities vary
+                                depending on how the defense assigns protection to its defensive secondary. In terms of defending
+                                the run, often corners may be assigned to blitz depending on the coaching decisions in a game.
+                                In terms of defending passing plays, a corner will be typically assigned to either zone or
+                                man-to-man coverage.</p>
+
+                                <iframe width="520" height="315" src="//www.youtube.com/embed/fJzO_8DvpPs" frameborder="0" allowfullscreen></iframe>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="te" class= "col-md-offset-1">
+                            <h2>Tight End</h2>
+                            <p>The tight end (TE) is a position in American football, Arena football, and formerly Canadian
+                                football, on the offense. The tight end is often seen as a hybrid position with the characteristics
+                                and roles of both an offensive lineman and a wide receiver. Like offensive linemen, they are
+                                usually lined up on the offensive line and are large enough to be effective blockers. On the
+                                other hand, they are eligible receivers adept enough to warrant a defense's attention when
+                                running pass patterns.</p>
+
+                               <p> Because of the hybrid nature of the position, the tight end's role in any given offense depends
+                                on the tactical preferences and philosophy of the head coach. In some systems, the tight end
+                                will merely act as a sixth offensive lineman rarely going out for passes. Other systems utilize
+                                the tight end primarily as a receiver, frequently taking advantage of the tight end's size to
+                                create mismatches in the defensive secondary. Many coaches will often have one tight end who
+                                specializes in blocking in running situations while utilizing a better pass catching tight
+                                end in obvious passing situations.</p>
+
+                               <
+                                <iframe width="420" height="315" src="//www.youtube.com/embed/9lF-A54Rn9U" frameborder="0" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="dl" class= "col-md-offset-1">
+                            <h2>Defensive Line</h2>
+                            <p>
+                                The defensive line consists of one or two defensive tackles and two defensive ends who play
+                                outside the defensive tackles. The defensive line works with the linebackers to try to control
+                                the line of scrimmage. </p>
+
+                                <p>The 4-3 defensive formation, most commonly used in the NFL, employs two
+                                defensive tackles (and a defensive line of four men, with three linebackers behind them), while
+                                the 3-4 formation uses just a single defensive tackle, called the nose tackle (and a defensive
+                                line of three men, with four linebackers behind them). However, defensive ends in a typical 3-4
+                                have responsibilities more similar to a 4-3 defensive tackle than 4-3 defensive ends.</p>
+
+                                <p>On running plays, the goal is to tackle the ball carrier. The defensive line attempts to
+                                maintain their original formation (even spacing without holes), but also to prevent any
+                                members of the opposing offensive line from successfully engaging the linebackers, who chase
+                                down the ball carrier.</p>
+                                <p>The defensive tackles are usually the most skilled run defenders on the team.
+                                    y defensive ends--are called upon to do more running than
+                                offensive linemen, thus they usually tend to be somewhat lighter and faster.</p>
+                            </p>
+                                <iframe width="560" height="315" src="//www.youtube.com/embed/OSVDocMZs3Y" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="fs" class= "col-md-offset-1">
+                            <h2>Free Safety</h2>
+                            <p>
+                               <p> The free safety tends to watch the play unfold and follow the ball. The free safety is
+                                typically assigned to the quarterback in man coverage, but as the quarterback usually remains
+                                in the pocket the free safety is "free" to double cover another player.
+
+                                <p>On pass plays, the
+                                free safety is expected to assist the cornerback on his side and to close the distance to
+                                the receiver by the time the ball reaches him. Offenses tend to use the play-action pass
+                                specifically to make the free safety expect a run play, which would draw him closer to the
+                                line of scrimmage, and reduce his effectiveness as a pass defender.</p>
+
+                                <p>Furthermore, quarterbacks
+                                often use a technique to "look off" a free safety, by purposely looking to the other side of
+                                the field during a pass play, with the intention to lure the free safety away from the intended
+                                target receiver on the other side of the field. This phenomenon often tests how effective a
+                                free safety's wit and athleticism are at defending long pass plays. </p>
+
+                                <p>If the offense puts a
+                                receiver in the slot, then the free safety may be called upon to cover that receiver. Free
+                                safeties occasionally blitz as well. When this happens, the pressure on the quarterback is
+                                often very severe since a blitz by a defensive back is not usually anticipated. Because of
+                                their speed and deep coverage, free safeties are especially likely to make interceptions.</p>
+
+
+
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/d_bbEMeHyS8" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="wr" class= "col-md-offset-1">
+                            <h2>Wide Receivers</h2>
+                            <p>
+                                A wide receiver is an offensive position in American and Canadian football, and is the key
+                                player in most of the passing plays. Only players in the backfield or the ends on the line
+                                are eligible to catch a forward pass. The two players who begin play at the ends of the
+                                offensive line are eligible receivers, as are all players in the backfield.M<p/>
+
+                                <p> The backs and
+                                ends who are relatively near the sidelines are referred to as "wide" receivers. At the start
+                                of play, one wide receiver may begin play in the backfield, at least a yard behind the line
+                                of scrimmage, as is shown in the diagram at the right.</p>
+
+                               <p> The wide receiver on the right begins
+
+                                play in the backfield. Such positioning allows another player, usually the tight end, to become
+                                the eligible receiver on that side of the line. Such positioning defines the strong side of
+                                the field. This is the right side of the field in the diagram shown.</p>
+
+                            </p>
+                                <iframe width="560" height="315" src="//www.youtube.com/embed/j0gxiYU4jLg" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="ol" class= "col-md-offset-1">
+                            <h2>Offensive Line</h2>
+                            <p>
+                                In American football, the offense is the side which is in possession of the ball. It is their
+                                job to advance the ball towards the opponent's end zone to score points. Broadly speaking,
+                                the eleven players of the offense are broken into two groups: the five offensive linemen,
+                                whose primary job is to block, and the six backs and receivers whose primary job is advance
+                                the ball by means of either running with the ball or passing it. </p>
+
+                             <p>   The backs and receivers are
+                                also commonly known as skill position players or as eligible ball carriers (offensive linemen
+                                are not normally eligible to advance the ball during each play).</p>
+
+                               <p> The organization of the offense is strictly mandated by the rules; there must be at least
+                                seven players on the line of scrimmage and no more than four players (known collectively as
+                                "backs") behind it on every play.</p>
+
+                                   <p>The only players eligible to handle the ball during a normal
+                                play are the backs and the two players on the end of the line (the "ends"). The remaining
+                                players (known as "interior linemen") are considered "ineligible", and may only block. Within
+                                these strictures, however, creative coaches have developed a wide array of offensive formations
+                                to take advantage of different player skills and game situations.</p>
+
+                             <p>   The following positions are standard in nearly every game, though different teams will use
+                                different arrangements of them.
+                            </p>
+                                <iframe width="420" height="315" src="//www.youtube.com/embed/7iZdAWzpTR4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="fb" class="col-md-offset-1" >
+                            <h2>Fullback</h2>
+                            <p>The full-backs take up the holding wide positions and traditionally stayed in defence at all
+                                times, until a set-piece. Modern full-backs take a more attacking role, overlapping with
+                                wingers down the flank. There is one full-back on each side of the field except in defences
+                                with fewer than four players, where there may be no full-backs and instead only centre-backs.</p>
+
+                            <p>
+                                [7] The traditional English full-back was a large, strong man who would make substantial use
+                                of "hacking" – deliberately kicking the shins of opponents, a practice that was accepted as
+                                legal in Britain but not in other countries, and caused major controversy as the game became
+                                increasingly internationalised from the 1950s on.</p>
+
+
+                                <p>It is now effectively banned everywhere,
+                                and it is this in part that has given rise to a different set of defensive roles. The full-backs
+                                have become essential in the modern game formation 4-3-3 or the now commonly used 4-2-3-1 formation.</p>
+
+
+
+                            </p>
+                                <iframe width="560" height="315" src="//www.youtube.com/embed/h4xM-5egrW8" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div id="hb" class= "col-md-offset-1">
+                            <h2>Half Back</h2>
+                            <p>
+                                A halfback is the holder of an offensive position in American football whose duties involve
+                                lining up in the backfield[1] and carrying the ball on most running plays in formations such
+                                as the veer variant of the wishbone. </p>
+
+                                <p>When the principal ball carrier lines up deep in the
+                                backfield, and especially when that player is placed behind another player (usually a blocking
+                                back), as in the I formation, that player is instead referred to as a tailback (see Early
+                                offensive backfields below).</p>
+
+                                <p> Historically, from the 1870s through the 1950s, the halfback
+                                position was both an offensive and defensive position. In the related sport of Canadian football,
+                                halfback is usually a defensive rather than offensive position since the 1980s, however used
+                                to also refer to an offensive position similar to a slotback that could line up off the tight
+                                end or behind the quarterback.</p>
+                                <iframe width="560" height="315" src="//www.youtube.com/embed/UH78-TtzU6A" frameborder="0" allowfullscreen></iframe>
+                            </p>
+                        </div>
+                    </div>
+
+                        <div class="col-md-4 col-md-offset-1">
+                            <div id="ss" class="col-md-offset-1 list">
+                            <h2>Strong Safety</h2>
+
+                               <p>In American football and Canadian football, defensive backs (DBs) are the players on the
+                                    defensive team who take positions somewhat back from the line of scrimmage; they are
+                                    distinguished from the defensive line players and linebackers, who take positions directly
+                                    behind or close to the line of scrimmage.</p>
+
+                             <p>   The defensive backs, in turn, generally are classified into several different specialized positions:
+
+                                Safety:
+                                Free Safety - most often the deepest safety
+                                Strong Safety - the bigger more physical safety, much like a small, quicker linebacker
+                                Defensive halfback (Canadian football only)
+                                Cornerback - which include:
+                             </p>
+
+
+
+                               <p> nickel back - the fifth defensive back in some sets, like the Nickel formation
+                                dime back - the sixth defensive back in some sets, like the Dime formation
+                                The seventh defensive back, in the exceedingly rare 'quarter' set
+                                known as a dollar back or a quarter back (not to be confused with the offensive player who
+                                    throws the ball)</p>
+
+
+                                <p>The group of defensive backs is known collectively as the secondary. They most often defend
+                                    the wide receiver corps; however, at times they may also line up against a tight end or
+                                    a split out running back. They are usually the smallest, quickest players on the field.
+
+                               </p>
+
+                                <iframe width="560" height="315" src="//www.youtube.com/embed/8lPAs2F_2uo" frameborder="0" allowfullscreen></iframe>
+                             </div>
+                        </div>
+                    </div>
+                    <!--<div id="cb" class="col-md-offset-5">-->
+                    <!--<h2>corner-back</h2>-->
+                    <!--<ul  class="deet">-->
+                    <!--<li>detail2</li>-->
+                    <!--<li>detail4</li>-->
+                    <!--<li>detail5</li>-->
+                    <!--<li>detail6</li>-->
+                    <!--<li>detail7</li>-->
+                    <!--<li>detail8</li>-->
+                    <!--<iframe width="560" height="315" src="//www.youtube.com/embed/fJzO_8DvpPs" frameborder="0" allowfullscreen></iframe>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                </div>
+            </section>
+        </div>
+    </div>
+ </div>
+             <!--<script src="bower_components/todomvc-common/base.js"></script>-->
+             <!--<script src="bower_components/angular/angular.js"></script>-->
+             <!--<script src="bower_components/angular-route/angular-route.js"></script>-->
+             <!--<script src="js/app.js"></script>-->
+             <!--<script src="js/controllers/todoCtrl.js"></script>-->
+             <!--<script src="https://code.jquery.com/jquery-2.1.1.js"></script>-->
+             <!--<script src="app.js"></script>-->
+             <script  href="htpp://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ </div>
 </body>
 </html>

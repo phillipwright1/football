@@ -1,6 +1,11 @@
 .pos{
-    background-color: yellow;
     align-content: flex-start;
     border-radius: 53%;
 }
+.pos, .a{
+    color:#00000;
+}
+.list{
+    color: #00000;
 
+}
